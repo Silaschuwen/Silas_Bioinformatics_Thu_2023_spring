@@ -56,9 +56,14 @@ linux是开源系统，需要很多开发者来开发和维护，这避免不了
 
 `git config --list`
 
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/111068556/221397910-e5f71ba1-dfe8-490f-90e5-ab1b9e15c986.png">
+
+
 5. 创建git本地仓库
 
 `git init`
+
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/111068556/221398014-03a891b3-f446-4774-bc66-444892b2b65a.png">
 
 ### Adds a file to the local repository
 
