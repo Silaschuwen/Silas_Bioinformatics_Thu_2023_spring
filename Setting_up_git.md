@@ -134,24 +134,113 @@ linux是开源系统，需要很多开发者来开发和维护，这避免不了
 <img width="528" alt="image" src="https://user-images.githubusercontent.com/111068556/221398859-7a4c5028-71ef-445c-9eb7-ce6f4e3eef0f.png">
 
 ### Version forward and backward
+1. 首先需要使用git reflog查看所有的版本和索引
 
+2. 后退
+`#后退一个版本`
+
+`git reset --hard HEAD^ `
+
+`#后退两个版本 `
+
+`git reset --hard HEAD^^`
+
+`#后退n个版本（可以用～来选择多步）`
+
+`git reset --hard HEAD～n`
+
+3. 根据索引选择版本
+
+‘git reset --hard 哈希索引’
 
 
 ### Delete the local library file
 
+1. rm的命令
+
+`rm <filename>.txt `
+
+2. 此时，删除文件在缓冲区中
+
+3. git要求将删除文件也记录下来
+
+`#首先提交缓冲区删除的文件`
+
+`git add delet.txt`
+
+`#然后commit到本地库`
+
+`git commit -m 'delete file' delet.txt`
+
 
 ### Files comparison  
+
+可以比较文件名
+
+`git diff 文件名`
+
 
 
 
 ## Branch  
+
 ### What is a branch?  
+
+是指在版本开发的过程中，使用多条线同时推进多个任务
+
+同时并行推进多个功能的开发
+
+分支中出现问题，可以及时停止，不会对主分支产生影响
+
+<img width="647" alt="image" src="https://user-images.githubusercontent.com/111068556/221403155-3bbb1f66-f8f1-4a77-a210-bb2f66d729eb.png">
+
 ### Branch operation  
 
+`#查看分支`
+
+`git branch -v`
+
+`#创建分支`
+
+`git branch 分支名`
+
+`#切换分支 `
+
+`git checkout 分支名`
+
+`#合并分支`
+
+`git merge 分支名`
+
 ## Connect to remote library 
-### Push the local rep to the remote rep
+
+
+登陆github，点击加号选择new repository
+
+远程库的地址：https://github.com/...... 在github上复制
+
+git可以给地址取别名
+
+`#展示所有地址别名`
+
+`git remote -v `
+
+`#给地址赋别名`
+
+`git remote add 别名 url `
+
+`#例如`
+
+`git remote add silaschw https://github.com/xxxxxxxx/myfirsttest.git`
+
+
+### Link the local rep to the remote rep
+
+`git push mygithuburl master`
+
+
 ### Clone a remote the as a local rep   
 
-## Reference
+`git clone 远程库的url`
 
  
