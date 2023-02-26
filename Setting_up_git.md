@@ -67,11 +67,74 @@ linux是开源系统，需要很多开发者来开发和维护，这避免不了
 
 ### Adds a file to the local repository
 
+1. 在刚才git init的目录下创建一个txt文档，里面写上文本
+
+<img width="332" alt="image" src="https://user-images.githubusercontent.com/111068556/221398113-48b9dc20-670e-4ad1-be3e-4c3dbf18c250.png">
+
+2. 查看工作区结果
+
+<img width="551" alt="image" src="https://user-images.githubusercontent.com/111068556/221398148-25671500-8242-46a6-8683-3f519914f716.png">
+
+发现为未提交状态，尝试提交
+
+3. 提交到stage缓冲区中
+
+`#添加到缓冲区`
+
+`git add test.txt`
+
+
+`#撤出缓冲区`
+
+`git rm --cached test.txt`
+
+发现已经成功添加到缓冲区
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/111068556/221398251-f7dd8c71-9fe6-4663-8ac3-1fbb46c6cbe9.png">
+
+目前文件提交到了stage中，但并未commit到本地版本库，使用如下命令添加到本地版本库
+
+`git commit test.txt`
+
+添加之后，会出现下图提交注释页面
+
+<img width="486" alt="image" src="https://user-images.githubusercontent.com/111068556/221398304-9fc45b0f-6b8d-46ac-a565-2edad326e5cd.png">
+
+添加注释，点击【i】进入编辑状态,点击esc退出编辑状态,按【shift + ;】输入:,输入【wq】保存, 出现如下界面
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/111068556/221398714-787d233d-228d-48e2-becd-b3993289ae51.png">
+
 
 ### Viewing historical versions
 
+`#查看历史版本-详细信息`
+
+`git log`
+
+`#查看历史版本-一行`
+
+`git log --pretty=oneline`
+
+`#以哈希值为标识显示`
+
+`git log --oneline`
+
+`#可以看见head的版本`
+
+`git reflog --oneline`
+
+
+查看详细信息
+<img width="472" alt="image" src="https://user-images.githubusercontent.com/111068556/221398809-bb090cbd-5248-4b0b-a709-7e6c70d0d952.png">
+
+查看历史版本的简略信息(一行一条版本信息)
+<img width="783" alt="image" src="https://user-images.githubusercontent.com/111068556/221398845-a7391d86-e18d-448c-a88c-37461ec5c724.png">
+
+以哈希值为表示显示版本信息
+<img width="528" alt="image" src="https://user-images.githubusercontent.com/111068556/221398859-7a4c5028-71ef-445c-9eb7-ce6f4e3eef0f.png">
 
 ### Version forward and backward
+
 
 
 ### Delete the local library file
