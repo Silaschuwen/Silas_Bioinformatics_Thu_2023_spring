@@ -25,20 +25,37 @@ linux是开源系统，需要很多开发者来开发和维护，这避免不了
 <img width="596" alt="image" src="https://user-images.githubusercontent.com/111068556/221395757-54201955-e6ea-4260-af67-1a4649ccaf41.png">
 
 4. **在终端中输入git --version出现版本号即可**
-<img width="570" alt="image" src="https://user-images.githubusercontent.com/111068556/221395809-134f1e47-ebb7-4e18-b344-a79dc60885d7.png">
-
-
-
+<img width="397" alt="image" src="https://user-images.githubusercontent.com/111068556/221395872-09884f4a-1602-45a9-8e76-cadab867e16d.png">
 
 
 ## The way git used  
 ### Workflow
+<img width="694" alt="image" src="https://user-images.githubusercontent.com/111068556/221395995-1d22ea0e-c879-4a51-8d15-339a3b0d1d02.png">
+
+1. 工作区：即你在你本机电脑上初始化创建的一个包含.git文件的目录,或者说写代码的地方 
+
+2. Stage暂存区：版本库就是.git文件，包含版本信息，使用add可以将本地工作区的版本信息添加到stage中，但并未到分支中  
+
+3. Commit本地库：本地库，用于存储文件的历史版本 
+
 ### Initial configuration
+
+
 ### Adds a file to the local repository
+
+
 ### Viewing historical versions
+
+
 ### Version forward and backward
+
+
 ### Delete the local library file
+
+
 ### Files comparison  
+
+
 
 ## Branch  
 ### What is a branch?  
