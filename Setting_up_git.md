@@ -13,16 +13,19 @@ linux是开源系统，需要很多开发者来开发和维护，这避免不了
 
 
 ## Git installation  
-1. git的官方网址链接:  https://git-scm.com/download 点击macOS。
+1. **git的官方网址链接:  https://git-scm.com/download 点击macOS。**
 
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/111068556/221395641-849be433-797d-473f-b9cb-ab60818feb99.png">
 
-2. 选择安装方式，因为我没有homebrew，选择文件直接安装。
+2. **选择安装方式，因为我没有homebrew，选择文件直接安装。**
 <img width="673" alt="image" src="https://user-images.githubusercontent.com/111068556/221395648-2890dfb9-abe1-4529-81be-341865761288.png">
 
-3. 点击download并完成安装
+3. **点击download并完成安装**
+***注意使用安装安装，直接安装会失败***
+<img width="596" alt="image" src="https://user-images.githubusercontent.com/111068556/221395757-54201955-e6ea-4260-af67-1a4649ccaf41.png">
 
-4. 在终端中输入git --version出现版本号即可
+4. **在终端中输入git --version出现版本号即可**
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/111068556/221395809-134f1e47-ebb7-4e18-b344-a79dc60885d7.png">
 
 
 
