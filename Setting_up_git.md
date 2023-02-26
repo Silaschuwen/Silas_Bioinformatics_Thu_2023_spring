@@ -39,7 +39,26 @@ linux是开源系统，需要很多开发者来开发和维护，这避免不了
 3. Commit本地库：本地库，用于存储文件的历史版本 
 
 ### Initial configuration
+1. 配置用户名
+ 
+`git config --global user.name "sials"`
 
+2. 配置用户邮箱
+
+`git config --global user.email "silaschw0817@gmail.com"`
+
+
+3. 配置大小写敏感
+
+`git config --global core.ignorecase false`
+
+4. 查看Git的配置信息可以用下面的命令：
+
+`git config --list`
+
+5. 创建git本地仓库
+
+`git init`
 
 ### Adds a file to the local repository
 
