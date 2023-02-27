@@ -1,8 +1,7 @@
 # **Study Plan**
 
-*Mainly Refer to the Course syllabus, and divide some long term work into detailed menu for every week.*
+*Mainly Refer to the [Course syllabus](https://app.yinxiang.com/fx/48420550-8f51-49a6-b404-0cc7e810ab4c), and divide some long term work into detailed menu for every week.*
 
-Course syllabus：https://app.yinxiang.com/fx/48420550-8f51-49a6-b404-0cc7e810ab4c
 
 | Week |                           Lecture                            |                        Self-learning                         |
 | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: |
