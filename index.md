@@ -9,16 +9,20 @@
    https://github.com/Silaschuwen/Silas_Bioinformatics_Thu_2023_spring/blob/main/README.md
 
 1. **Class_notebook**
+   
    https://github.com/Silaschuwen/Silas_Bioinformatics_Thu_2023_spring/tree/main/Class_notebook
 
 
 2. **Bioinformatics studying plan**
-   https://github.com/Silaschuwen/Silas_Bioinformatics_Thu_2023_spring/blob/main/Bioinformatics_study_plan.md
+
+  https://github.com/Silaschuwen/Silas_Bioinformatics_Thu_2023_spring/blob/main/Bioinformatics_study_plan.md
 
 
 3. **Materials**
-   https://github.com/Silaschuwen/Silas_Bioinformatics_Thu_2023_spring/tree/main/Materials
+
+  https://github.com/Silaschuwen/Silas_Bioinformatics_Thu_2023_spring/tree/main/Materials
 
 
 4. **Setting_up_record_book**
-   https://github.com/Silaschuwen/Silas_Bioinformatics_Thu_2023_spring/tree/main/Setting_up_record_book
+
+  https://github.com/Silaschuwen/Silas_Bioinformatics_Thu_2023_spring/tree/main/Setting_up_record_book
