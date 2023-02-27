@@ -1,5 +1,9 @@
 # **Study Plan**
 
+*Mainly Refer to the Course syllabus, and divide some long term work into detailed menu for every week.*
+
+Course syllabus：https://app.yinxiang.com/fx/48420550-8f51-49a6-b404-0cc7e810ab4c
+
 | Week |                           Lecture                            |                        Self-learning                         |
 | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  1   | Class_Description<br /><br />Introduction<br /><br />Getting started and Set up | Setting up git and docker<br /><br />Creating linux and Vim commands cheet sheet<br /><br />Watching related teaching video and chapters<br />1-7, 10-12<br /> |
